@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Gal-Demo2", "Gal-Demo2\", "{3F99BB7B-82F6-4398-AB3D-040E5C53C6C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{c1edf8fb-2ab5-4c56-9de5-0d43727e73d7}|Gal-demo.Logica.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60587"
+		Debug.AspNetCompiler.PhysicalPath = "Gal-Demo2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60587\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60587"
+		Release.AspNetCompiler.PhysicalPath = "Gal-Demo2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60587\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60587"
+		SlnRelativePath = "Gal-Demo2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gal-demo.Logica", "Gal-demo.Logica\Gal-demo.Logica.csproj", "{C1EDF8FB-2AB5-4C56-9DE5-0D43727E73D7}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Gal-Demo-Db", "Gal-Demo-Db\Gal-Demo-Db.sqlproj", "{A93D9A11-1B32-4ACA-B019-C63EC696FF09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F99BB7B-82F6-4398-AB3D-040E5C53C6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F99BB7B-82F6-4398-AB3D-040E5C53C6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F99BB7B-82F6-4398-AB3D-040E5C53C6C2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F99BB7B-82F6-4398-AB3D-040E5C53C6C2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C1EDF8FB-2AB5-4C56-9DE5-0D43727E73D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EDF8FB-2AB5-4C56-9DE5-0D43727E73D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EDF8FB-2AB5-4C56-9DE5-0D43727E73D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EDF8FB-2AB5-4C56-9DE5-0D43727E73D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93D9A11-1B32-4ACA-B019-C63EC696FF09}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C114DE6-EFC8-498E-ADC5-FBB7812FDE2E}
+	EndGlobalSection
+EndGlobal
